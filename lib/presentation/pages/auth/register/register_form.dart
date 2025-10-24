@@ -149,10 +149,6 @@ class _RegisterFormState extends State<RegisterForm> {
                   items: const [
                     DropdownMenuItem(value: 'cliente', child: Text('Cliente')),
                     DropdownMenuItem(
-                      value: 'trabajador',
-                      child: Text('Trabajador'),
-                    ),
-                    DropdownMenuItem(
                       value: 'administrador',
                       child: Text('Administrador'),
                     ),
