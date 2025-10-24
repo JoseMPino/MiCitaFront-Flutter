@@ -1,0 +1,42 @@
+name: mi_cita
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.9.1
+  # Gestión de estado
+  flutter_bloc: ^8.1.2
+  # HTTP Client
+  dio: ^5.0.0
+  # Inyección de dependencias
+  get_it: ^7.2.0
+  # Validaciones de formularios
+  formz: ^0.8.0
+  # Anotaciones para Freezed
+  freezed_annotation: ^2.1.0
+  # Almacenamiento local
+  shared_preferences: ^2.0.15
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  flutter_secure_storage: ^8.0.0
+
+
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.0
+  freezed: ^2.2.0
+  
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/videos/splash.mp4
