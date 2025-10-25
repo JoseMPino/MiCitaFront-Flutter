@@ -39,4 +39,9 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/videos/splash.mp4
+    - assets/videos/
+    - assets/images/
+  fonts:
+    - family: EtnaSans
+      fonts:
+        - asset: assets/fonts/etnaFont.otf
