@@ -43,20 +43,23 @@ class _SplashScreenState extends State<SplashScreen>
        
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.end,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Image.asset(
                     'assets/images/logoApp.png',
                     height: 100,
                   ),
                   const SizedBox(width: 10),
-                  const Text(
-                    'MiCita',
-                    style: TextStyle(
-                      fontFamily: 'EtnaSans',
-                      color: Color(0xFF154360),
-                      fontSize: 70,
-                      fontWeight: FontWeight.bold,
+                  Padding(
+                    padding: EdgeInsets.only(top: 56),
+                    child: const Text(
+                      'MiCita',
+                      style: TextStyle(
+                        fontFamily: 'EtnaSans',
+                        color: Color(0xFF154360),
+                        fontSize: 70,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
                   ),
                 ],

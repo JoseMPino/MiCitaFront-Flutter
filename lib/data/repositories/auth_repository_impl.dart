@@ -51,7 +51,7 @@ class AuthRepositoryImpl implements AuthRepository {
         rol: user.rol,
         estado: user.estado,
         contrasena: contrasena, 
-        negocioId: null,        
+        negocioId: null,
       );
       
       final registeredUser = await remoteDataSource.register(userModel);

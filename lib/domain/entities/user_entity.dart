@@ -7,6 +7,7 @@ class UserEntity {
   final String? contrasena;
   final String rol;
   final bool estado;
+  final String? negocioId;
 
   UserEntity({
     this.id,
@@ -17,5 +18,6 @@ class UserEntity {
     this.contrasena,
     required this.rol,
     required this.estado,
+    this.negocioId
   });
 }
